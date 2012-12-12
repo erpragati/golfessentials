@@ -1,0 +1,47 @@
+Dude you go way out of your way on this.
+
+put the regexs into an array
+
+$regs['name'] = "..*"; etc....
+
+then loop through the array
+
+foreach( $regs as $k => $v )
+
+then 
+
+if( ! ereg( $v , $_POST[$k] ) )
+{
+$errors[$k] = "Invalid!";
+}
+
+
+use a loop luke!
+
+http://httpd.apache.org/docs/trunk/rewrite/advanced.html
+
+http://httpd.apache.org/docs/trunk/rewrite/remapping.html
+
+http://httpd.apache.org/docs/trunk/rewrite/intro.html
+
+http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html#rewriterule
+
+http://httpd.apache.org/docs/trunk/rewrite/
+
+http://wiki.apache.org/httpd/RewriteCond
+
+http://wiki.apache.org/httpd/RewriteRule
+
+http://wiki.apache.org/httpd/RewriteLog
+
+http://www.workingwith.me.uk/articles/scripting/mod_rewrite
+
+http://stackoverflow.com/questions/1039725/how-to-url-re-writing-in-php
+
+http://stackoverflow.com/questions/3033407/htacces-to-create-friendly-urls-help-needed
+
+http://stackoverflow.com/questions/7234005/rewritecond-for-url-with-parameters
+
+http://net.tutsplus.com/tutorials/other/using-htaccess-files-for-pretty-urls/
+
+http://gskinner.com/RegExr/
