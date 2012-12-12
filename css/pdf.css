@@ -1,0 +1,136 @@
+body
+{
+	min-width:1800px;
+	
+}
+
+.top
+{
+	position: absolute;
+	top:20px;
+	height:150px;
+	width:100%;
+}
+
+.bill_to
+{
+	position:relative;
+	top:2px;
+	left:3px;
+	font-size: 1.2em;
+}
+
+.cust_name
+{
+	position:relative;
+	top:7px;
+	left:3px;
+	width:200px;
+	height:auto;
+}
+
+.cust_address
+{
+	position:relative;
+	top:9px;
+	left:3px;
+	width:200px;
+	height:auto;
+}
+
+.right
+{
+	position:fixed;
+	top:9px;
+	left:450px;
+}
+
+.inv
+{
+	position: absolute;
+	top:210px;
+	margin-left:300px;
+	font-size: 1.5em;
+
+}
+
+.inv_num
+{
+	position: absolute;
+	top:260px;
+	margin-left:508px;
+	font-size: 1.1em;
+}
+
+.date
+{
+	position: absolute;
+	top:280px;
+	margin-left:508px;
+	font-size: 1.1em;
+}
+
+.table_container
+{
+	position: relative;
+	top:300px;
+	margin-left:15px;
+	height:300px;
+	width:690px;
+	
+}
+table.summary {
+  width:100%;
+  text-align: left;
+}
+table.summary tr:first-child{
+  background-color: #333;
+  padding:5px;
+  color:#fff;
+  border: 1px solid #333;
+}
+table.summary tr td{
+  padding:3px;
+}
+table.summary tr td{
+  border-left: 1px solid #333;
+border-bottom: 1px solid #333;
+
+}
+table.summary tr td:last-child{
+  border-right: 1px solid #333;
+}
+table.summary tr:last-child{
+  border-top: 1px solid #333;
+  }
+
+.after_table
+{
+	position:relative;
+	margin-left:5px;
+	width:690px;
+	top:285px;
+	
+}
+
+
+table.details
+{
+	position: relative;
+	top:35px;
+	width:100%;
+
+  text-align: left;
+  margin-left:10px;
+}
+b.ruppeefont{
+  font-family: 'RuppeeFont';
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.green_color
+{
+
+	color: #71be44;
+}
