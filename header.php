@@ -62,18 +62,18 @@ include_once ('functions.php');
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/960.css">
+  <link rel="stylesheet" href="css/960.css.gz">
   <link rel="stylesheet" href="droid/droid.css">
   <link rel="stylesheet" href="ruppee/ruppee.css">
-  <link rel="stylesheet" href="css/nivo.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nivo.css.gz">
+  <link rel="stylesheet" href="css/style.css.gz">
 <?php
      $LastPosition=strripos($_SERVER['PHP_SELF'], '/');
      $LastPart=substr($_SERVER['PHP_SELF'], $LastPosition+1);
      $DotPosition=strripos($LastPart, '.');
      $CompareLink=substr($LastPart, 0, $DotPosition);
      if ($CompareLink=='product'||'minitour') {
-          echo "<link rel=\"stylesheet\" href=\"css/jquery.jqzoom.css\">";
+          echo "<link rel=\"stylesheet\" href=\"css/jquery.jqzoom.css.gz\">";
      }
   ?>
   <link rel="icon" type="image/png" href="fav.png">

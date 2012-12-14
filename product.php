@@ -323,7 +323,7 @@ echo "</div><div class=\"clearfix\"></div>";
   })();
 
 </script>
-<script type='text/javascript' src='js/jquery.jqzoom-core.js'></script>
+<script type='text/javascript' src='js/jquery.jqzoom-core.js.gz'></script>
 
 <script type="text/javascript">
 $(document).ready(function() {

@@ -1,8 +1,0 @@
-openssh
-lynx
-make
-curl
-gcc
-binutils
-	->	Devel
-wget

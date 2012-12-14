@@ -136,7 +136,7 @@ include_once ('functions.php');
                               </tr>
                               <tr>
                                    <td><input type="radio" name="payment" value="Cash On Delivery" required/></td>
-                                   <td>Cash on Delivery &nbsp;&nbsp;<small>(Currently, Cash on Delivery is applicable only in Chandigarh &amp; Delhi)</small></td>
+                                   <td>Cash on Delivery &nbsp;&nbsp;<small>(We will get back to you on the possibility of Cash on Delivery depending on the shipping address)</small></td>
                               </tr>
                               </table>
                               <br><br><hr><br>
