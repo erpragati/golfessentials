@@ -97,7 +97,7 @@ include 'header.php'; ?>
           <span class="answer">The Cash on Delivery option enables you to pay for the purchased product on delivery in specific regions. Please note that this may not be applicable to all products. Feel free to <a href="contactus">contact our sales support team</a> for more information.</span>
 
           <li class="answer"><b>Which regions do you provide cash on delivery for?</b></li>
-          <span class="answer">Currently we provide cash on delivery for North India.</span>
+          <span class="answer">Currently we provide cash on delivery for Chandigarh &amp; Delhi.</span>
     
      </ul>
 

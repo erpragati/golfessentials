@@ -309,7 +309,7 @@ echo "</div><div class=\"clearfix\"></div>";
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 -->
-<script type="text/javascript" src="js/libs/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/libs/jquery-1.8.2.min.js.gz"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

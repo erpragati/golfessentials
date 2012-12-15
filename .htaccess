@@ -69,35 +69,36 @@ ErrorDocument 500 http://localhost/Dropbox/php/500.php
 Options -Indexes
 
 #-------------------------------------------------
-#		FILE COMPRESSION
+#   FILE COMPRESSION
 #-------------------------------------------------
+
 <FilesMatch "\.(css.gz)$">
-	AddType text/css .gz
-	AddEncoding gzip .gz
+  AddType text/css .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 
 <FilesMatch "\.(js.gz)$">
-	AddType text/javascript .gz
-	AddEncoding gzip .gz
+  AddType text/javascript .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 #-------------------------------------------------
-#		FONT COMPRESSION
+#   FONT COMPRESSION
 #-------------------------------------------------
 <FilesMatch "\.(eot.gz)$">
-	AddType application/vnd.ms-fontobject .gz
-	AddEncoding gzip .gz
+  AddType application/vnd.ms-fontobject .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 <FilesMatch "\.(ttf.gz)$">
-	AddType application/x-font-ttf .gz
-	AddEncoding gzip .gz
+  AddType application/x-font-ttf .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 <FilesMatch "\.(otf.gz)$">
-	AddType font/opentype .gz
-	AddEncoding gzip .gz
+  AddType font/opentype .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 <FilesMatch "\.(svg.gz)$">
-	AddType image/svg+xml .gz
-	AddEncoding gzip .gz
+  AddType image/svg+xml .gz
+  AddEncoding gzip .gz
 </FilesMatch>
 
 # ----------------------------------------------------------------------
@@ -139,8 +140,9 @@ Options -Indexes
 # Media: images, video, audio
   ExpiresByType audio/ogg                 "access plus 0 seconds"
   ExpiresByType image/gif                 "access plus 0 seconds"
-  ExpiresByType image/jpeg                "access plus 0 seconds"
-  ExpiresByType image/png                 "access plus 0 seconds"
+  ExpiresByType image/jpeg                "access plus 1 day"
+  ExpiresByType image/jpg                 "access plus 1 day"
+  ExpiresByType image/png                 "access plus 1 day"
   ExpiresByType video/mp4                 "access plus 0 seconds"
   ExpiresByType video/ogg                 "access plus 0 seconds"
   ExpiresByType video/webm                "access plus 0 seconds"
@@ -149,11 +151,11 @@ Options -Indexes
   ExpiresByType text/x-component          "access plus 0 seconds"
 
 # Webfonts
-  ExpiresByType application/vnd.ms-fontobject "access plus 0 seconds"
-  ExpiresByType application/x-font-ttf    "access plus 0 seconds"
-  ExpiresByType application/x-font-woff   "access plus 0 seconds"
-  ExpiresByType font/opentype             "access plus 0 seconds"
-  ExpiresByType image/svg+xml             "access plus 0 seconds"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+  ExpiresByType application/x-font-ttf    "access plus 1 month"
+  ExpiresByType application/x-font-woff   "access plus 1 month"
+  ExpiresByType font/opentype             "access plus 1 month"
+  ExpiresByType image/svg+xml             "access plus 1 month"
 
 # CSS and JavaScript
   ExpiresByType application/javascript    "access plus 0 seconds"

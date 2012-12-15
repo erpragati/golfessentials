@@ -437,12 +437,16 @@ include_once ('functions.php');
                                    <div class="main-nav-dd-column">
                                         <h3>BRANDS</h3>
                                              <ul>
+                                                  <li><a href="products?type=Balls&amp;brand=Bridgestone&amp;page=0" title="Bridgestone Balls">BridgeStone &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=Callaway&amp;page=0" title="Callaway Balls">Callaway &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=Inesis&amp;page=0" title="Inesis Balls">Inesis &rsaquo;</a></li>
+                                                  <li><a href="products?type=Balls&amp;brand=Nike&amp;page=0" title="Nike Balls">Nike &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=Pinnacle&amp;page=0" title="Pinnacle Balls">Pinnacle &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=Srixon&amp;page=0" title="Srixon Balls">Srixon &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=TaylorMade&amp;page=0" title="TaylorMade Balls">TaylorMade &rsaquo;</a></li>
                                                   <li><a href="products?type=Balls&amp;brand=Titleist&amp;page=0" title="Titleist Balls">Titleist &rsaquo;</a></li>
+                                                  <li><a href="products?type=Balls&amp;brand=Top Flite&amp;page=0" title="Top Flite Balls">Top Flite &rsaquo;</a></li>
+                                                  <li><a href="products?type=Balls&amp;brand=Wilson&amp;page=0" title="Wilson Balls">Wilson &rsaquo;</a></li>
                                                   
                                              </ul>
                                    </div>
