@@ -9,8 +9,8 @@ echo "Name: <input type=\"text\" id=\"name\" required value=\"\"><input type=\"s
 echo "<div id=\"name-data\"></div>";
 echo "<br><br><br>";
 echo "<form><input type=\"text\" id=\"faaltu\" class=\"faaltu\" required></form>";
-echo "<script type=\"text/javascript\" src=\"js/libs/jquery-1.8.2.min.js\"></script>";
-echo "<script type=\"text/javascript\" src=\"js/script.js\"></script><br><br><br>";
+echo "<script type=\"text/javascript\" src=\"js/libs/jquery-1.8.2.min.js.gz\"></script>";
+echo "<script type=\"text/javascript\" src=\"js/script.js.gz\"></script><br><br><br>";
 -----------------------------------------------------*/
 #ob_start();include 'mail/register.php';$out = ob_get_clean();echo $out;
 #echo "kjewbkqjb -".GetCustomerDetails('fname')."- sldkjvbhjdkwb";

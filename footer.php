@@ -48,26 +48,31 @@
      <div class="socialbadges"></div>
      <ul class="left">
           <li><h2>Brands</h2></li>
-          <li><a href="products?brand=Adidas&amp;page=0" title="Adidas Products">Adidas</a></li>
-          <li><a href="products?brand=Bushnell&amp;page=0" title="Bushnell Products">Bushnell</a></li>
-          <li><a href="products?brand=Callaway&amp;page=0" title="Callaway Products">Callaway</a></li>
-          <li><a href="products?brand=Cleveland&amp;page=0" title="Cleveland Products">Cleveland</a></li>
-          <li><a href="products?brand=Cobra&amp;page=0" title="Cobra Products">Cobra</a></li>
-          <li><a href="products?brand=FootJoy&amp;page=0" title="FootJoy Products">FootJoy</a></li>
-          <!-- <li><a href="products?brand=Golden bear&amp;page=0" title="Golden Bear Products">Golden Bear</a></li> -->
-          <li><a href="products?brand=Golf pride&amp;page=0" title="Golf Pride Products">Golf Pride</a></li>
-          <li><a href="products?brand=Inesis&amp;page=0" title="Inesis Products">Inesis</a></li>
+          <li><a href="products.php?brand=Adidas&amp;page=0" title="Adidas Products">Adidas</a></li>
+          <li><a href="products.php?brand=Bridgestone&amp;page=0" title="Bridgestone Products">Bridgestone</a></li>
+          <li><a href="products.php?brand=Bushnell&amp;page=0" title="Bushnell Products">Bushnell</a></li>
+          <li><a href="products.php?brand=Callaway&amp;page=0" title="Callaway Products">Callaway</a></li>
+          <li><a href="products.php?brand=Cleveland&amp;page=0" title="Cleveland Products">Cleveland</a></li>
+          <li><a href="products.php?brand=Cobra&amp;page=0" title="Cobra Products">Cobra</a></li>
+          <li><a href="products.php?brand=FootJoy&amp;page=0" title="FootJoy Products">FootJoy</a></li>
+          <!-- <li><a href="products.php?brand=Golden bear&amp;page=0" title="Golden Bear Products">Golden Bear</a></li> -->
+          <li><a href="products.php?brand=Golf pride&amp;page=0" title="Golf Pride Products">Golf Pride</a></li>
+          <li><a href="products.php?brand=Inesis&amp;page=0" title="Inesis Products">Inesis</a></li>
+          <li><a href="products.php?brand=Nike&amp;page=0" title="Nike Products">Nike</a></li>
+          <li><a href="products.php?brand=Noodle&amp;page=0" title="Noodle Products">Noodle</a></li>
      </ul>
      <ul class="left">
           <li><h2><br></h2></li>
-          <li><a href="products?brand=Odyssey&amp;page=0" title="Odyssey Products">Odyssey</a></li>
-          <li><a href="products?brand=Ping&amp;page=0" title="Ping Products">Ping</a></li>
-          <li><a href="products?brand=Pinnacle&amp;page=0" title="Pinnacle Products">Pinnacle</a></li>
-          <li><a href="products?brand=Scotty cameron&amp;page=0" title="Scotty Cameron Products">Scotty Cameron</a></li>
-          <li><a href="products?brand=Srixon&amp;page=0" title="Srixon Products">Srixon</a></li>
-          <li><a href="products?brand=TaylorMade&amp;page=0" title="TaylorMade Products">TaylorMade</a></li>
-          <li><a href="products?brand=Titleist&amp;page=0" title="Titleist Products">Titleist</a></li>
-          <li><a href="products?brand=US Kids&amp;page=0" title="US Kids Products">US Kids</a></li>
+          <li><a href="products.php?brand=Odyssey&amp;page=0" title="Odyssey Products">Odyssey</a></li>
+          <li><a href="products.php?brand=Ping&amp;page=0" title="Ping Products">Ping</a></li>
+          <li><a href="products.php?brand=Pinnacle&amp;page=0" title="Pinnacle Products">Pinnacle</a></li>
+          <li><a href="products.php?brand=Scotty cameron&amp;page=0" title="Scotty Cameron Products">Scotty Cameron</a></li>
+          <li><a href="products.php?brand=Srixon&amp;page=0" title="Srixon Products">Srixon</a></li>
+          <li><a href="products.php?brand=TaylorMade&amp;page=0" title="TaylorMade Products">TaylorMade</a></li>
+          <li><a href="products.php?brand=Titleist&amp;page=0" title="Titleist Products">Titleist</a></li>
+          <li><a href="products.php?brand=Top Flite&amp;page=0" title="Top Flite Products">Top Flite</a></li>
+          <li><a href="products.php?brand=US Kids&amp;page=0" title="US Kids Products">US Kids</a></li>
+          <li><a href="products.php?brand=Wilson&amp;page=0" title="Wilson Products">Wilson</a></li>
      </ul>
      <ul class="left">
           <li><h2>Products</h2></li>

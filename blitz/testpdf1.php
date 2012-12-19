@@ -27,16 +27,16 @@
 		</div>
 		<div class="inv"><b><u> INVOICE </u></b></div>
 		<div class="inv_num"><b>Invoice No.: </b>12021</div>
-		<div class="date"><b>Date:</b> Tuesday, 11/Dec/2012</div>
+		<div class="date"><b>Date:</b> Tuesday, 18/Dec/2012</div>
 		<div class="table_container">
 			<br>
-		<table class="summary"><tr><th>S.No.</th><th>Product Name</th><th>Price</th><th>Qty.</th><th>Amount</th></tr><tr><td>1</td><td>Arm Sleeves Black / Silver</td><td><b>Rs.</b> 1,299</td><td>1</td><td><b>Rs.</b> 1299</td></tr><tr><td colspan="4"><b>Grand Total</b></td><td><b>Rs.</b><b> 1,299</b></td></tr></table>		    	</div>
+		<table class="summary"><tr><th>S.No.</th><th>Product Name</th><th>Price</th><th>Qty.</th><th>Amount</th></tr><tr><td>1</td><td>Arm Sleeves Black / Silver</td><td><b>Rs.</b> 1,299</td><td>1</td><td><b>Rs.</b> 1299</td></tr><tr><td>2</td><td>Monoline Cap Headcover</td><td><b>Rs.</b> 1,650</td><td>1</td><td><b>Rs.</b> 1650</td></tr><tr><td colspan="4"><b>Grand Total</b></td><td><b>Rs.</b><b> 2,949</b></td></tr></table>		    	</div>
 
 		<div class="after_table">
 			<!--<div class="tin"><b>TIN No.: 06512507949</b></div>
 			<div class="cust_tin"><b>Buyer's TIN No.: </b></div> -->
 			<table class="details" >
-				<tr><td colspan="5"><b>Amount chargeable in Words: </b>Rupees One Thousand Two Hundred &amp; Ninty Nine  Only.</td></tr>
+				<tr><td colspan="5"><b>Amount chargeable in Words: </b>Rupees Two Thousand Nine Hundred &amp; Forty Nine  Only.</td></tr>
 				<tr><td></td></tr>
 				<tr><td></td></tr>
                 <tr><td class="green_color" colspan="3"><b>Payment Option Selected:</b> Bank Transfer</td></tr>

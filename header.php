@@ -63,8 +63,8 @@ include_once ('functions.php');
 
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/960.css.gz">
-  <link rel="stylesheet" href="droid/droid.css">
-  <link rel="stylesheet" href="ruppee/ruppee.css">
+  <link rel="stylesheet" href="droid/droid.css.gz">
+  <link rel="stylesheet" href="ruppee/ruppee.css.gz">
   <link rel="stylesheet" href="css/nivo.css.gz">
   <link rel="stylesheet" href="css/style.css.gz">
 <?php
@@ -479,12 +479,13 @@ include_once ('functions.php');
                                              <li><a href="products?type=Headwear&amp;page=0" title="Headwear">Headwear &rsaquo;</a></li>
                                              <li><a href="products?type=Gloves&amp;page=0" title="Gloves">Gloves &rsaquo;</a></li>
                                              <li><a href="products?type=Grips&amp;page=0" title="Grips">Grips &rsaquo;</a></li>
+                                             <li><a href="products?type=Rangefinders&amp;page=0" title="Rangefinders">Rangefinders &rsaquo;</a></li>
                                         </ul>
                                    </div>
                                    <div class="main-nav-dd-column">
                                         <ul>
-                                             <li><a href="products?type=Rangefinders&amp;page=0" title="Rangefinders">Rangefinders &rsaquo;</a></li>
                                              <li><a href="products?type=Sleeves&amp;page=0" title="Sleeves">Sleeves &rsaquo;</a></li>
+                                             <li><a href="products?type=Towels&amp;page=0" title="Towels">Towels &rsaquo;</a></li>
                                              <li><a href="products?type=Training Aids&amp;page=0" title="Training Aids">Training Aids &rsaquo;</a></li>
                                              <li><a href="products?type=Trolleys&amp;page=0" title="Trolleys">Trolleys &rsaquo;</a></li>
                                              <li><a href="products?type=Umbrellas&amp;page=0" title="Umbrellas">Umbrellas &rsaquo;</a></li>

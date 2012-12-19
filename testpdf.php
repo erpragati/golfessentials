@@ -5,8 +5,8 @@ include 'connection.php';
 <?php ob_start() ?>
 <html>
 <head>
-	<link rel="stylesheet" href="css/pdf.css" type="text.css"/>
-    <link rel="stylesheet" href="ruppee/ruppee.css" type="text.css"/>
+	<link rel="stylesheet" href="css/pdf.css">
+    <link rel="stylesheet" href="ruppee/ruppee.css">
 
 </head>
 	<body>

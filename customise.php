@@ -75,9 +75,9 @@ include 'header.php'; ?>
 
   <script src="js/plugins.js"></script>
 -->
-    <script type="text/javascript" src="js/libs/jquery-1.8.2.min.js"></script>
-    <script src="js/script.js"></script>
-    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-1.8.2.min.js.gz"></script>
+    <script src="js/script.js.gz"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js.gz"></script>
     <script type="text/javascript">
     $(window).load(function() {
         $('#slider').nivoSlider();
