@@ -161,7 +161,7 @@ foreach ($filter as $category) {
           echo "</ul>";
      }                                                 //   If loop for displaying the complete category ends
 }
-echo  "<div class=\"pf\"><h1><a href=\"".$_SERVER['SCRIPT_NAME']."?page=0\" rel=\"nofollow\">Reset your Search</a></h1></div>";
+echo  "<div class=\"pf\"><h1><a href=\"".substr($_SERVER['SCRIPT_NAME'], 0, -4)."?page=0\" rel=\"nofollow\">Reset your Search</a></h1></div>";
 echo "</div>";
 /*-------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------

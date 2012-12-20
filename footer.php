@@ -49,6 +49,7 @@
      <ul class="left">
           <li><h2>Brands</h2></li>
           <li><a href="products.php?brand=Adidas&amp;page=0" title="Adidas Products">Adidas</a></li>
+          <li><a href="products.php?brand=Bag Boy&amp;page=0" title="Bag Boy Products">Bag Boy</a></li>
           <li><a href="products.php?brand=Bridgestone&amp;page=0" title="Bridgestone Products">Bridgestone</a></li>
           <li><a href="products.php?brand=Bushnell&amp;page=0" title="Bushnell Products">Bushnell</a></li>
           <li><a href="products.php?brand=Callaway&amp;page=0" title="Callaway Products">Callaway</a></li>
@@ -59,10 +60,11 @@
           <li><a href="products.php?brand=Golf pride&amp;page=0" title="Golf Pride Products">Golf Pride</a></li>
           <li><a href="products.php?brand=Inesis&amp;page=0" title="Inesis Products">Inesis</a></li>
           <li><a href="products.php?brand=Nike&amp;page=0" title="Nike Products">Nike</a></li>
-          <li><a href="products.php?brand=Noodle&amp;page=0" title="Noodle Products">Noodle</a></li>
+          
      </ul>
      <ul class="left">
           <li><h2><br></h2></li>
+          <li><a href="products.php?brand=Noodle&amp;page=0" title="Noodle Products">Noodle</a></li>
           <li><a href="products.php?brand=Odyssey&amp;page=0" title="Odyssey Products">Odyssey</a></li>
           <li><a href="products.php?brand=Ping&amp;page=0" title="Ping Products">Ping</a></li>
           <li><a href="products.php?brand=Pinnacle&amp;page=0" title="Pinnacle Products">Pinnacle</a></li>
