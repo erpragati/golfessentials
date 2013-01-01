@@ -77,7 +77,7 @@ while ($featuredrow=mysql_fetch_array($featured)) {
           elseif ($rownumber==3) { echo "<div class=\"product small omega\">"; }
           else{ echo "<div class=\"product small right\">"; }
 
-          echo "<img src=\"".$featuredrow[0]."thumb.jpg\">";
+          echo "<img width=\"150\" height=\"120\" src=\"".$featuredrow[0]."thumb.jpg\">";
           echo "<hr>";
           echo "<h5 class=\"bold\">".$featuredrow[6]."</h5><h5>".$featuredrow[1]."</h5>";
           //----------------------------------------Temporary Solution
@@ -102,7 +102,7 @@ while ($featuredrow=mysql_fetch_array($featured)) {
                     $rownumber++;
           
 }
-echo "<div class=\"ad_vertical right\"><a href=\"product?id=10\"><img src=\"offers/3.jpg\"></a></div>";
+echo "<div class=\"ad_vertical right\"><a href=\"product?id=10\"><img width=\"240\" height=\"473\" src=\"offers/3.jpg\"></a></div>";
 ///################################## LATEST PRODUCTS ROW ################################///
 echo "<h2>Featured</h2><hr>";
 $featured=mysql_query("SELECT ImageFolderLInk, ProductName, Rating, MRP, SP, ProductID, Brand FROM productmaster WHERE featured='1' AND Enabled='1' ORDER BY RAND() LIMIT 4");
@@ -143,10 +143,10 @@ while ($featuredrow=mysql_fetch_array($featured)) {
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js"><\/script>')</script>
 -->
-<script src="js/libs/jquery-1.8.2.min.js.gz"></script>
-<script src="js/plugins.js.gz"></script>
-<script src="js/script.js.gz"></script>
-<script type="text/javascript" src="js/jquery.nivo.slider.js.gz"></script>
+<script src="js/libs/jquery-1.8.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
     $('#slider').nivoSlider();

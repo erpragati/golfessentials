@@ -1,24 +1,24 @@
                <div class="clearfix"></div>
                <div class="brands">
-                    <a href="products?brand=Adidas&amp;page=0" title="Adidas Products"><img src="img/images/logos_01.png" class="left"></a>
-                    <a href="products?brand=Bushnell&amp;page=0" title="Bushnell Products"><img src="img/images/logos_02.png" class="left"></a>
-                    <a href="products?brand=Callaway&amp;page=0" title="Callaway Products"><img src="img/images/logos_03.png" class="left"></a>
-                    <a href="products?brand=Cleveland&amp;page=0" title="Cleveland Products"><img src="img/images/logos_04.png" class="left"></a>
-                    <a href="products?brand=Cobra&amp;page=0" title="Cobra Products"><img src="img/images/logos_05.png" class="left"></a>
-                    <a href="products?brand=FootJoy&amp;page=0" title="FootJoy Products"><img src="img/images/logos_06.png" class="left"></a>
-                    <a href="products?brand=Golf Pride&amp;page=0" title="Golf Pride Products"><img src="img/images/logos_07.png" class="left"></a>
-                    <a href="products?brand=Inesis&amp;page=0" title="Inesis Products"><img src="img/images/logos_08.png" class="left"></a>
-                    <a href="products?brand=Odyssey&amp;page=0" title="Odyssey Products"><img src="img/images/logos_09.png" class="left"></a>
-                    <a href="products?brand=Ping&amp;page=0" title="Ping Products"><img src="img/images/logos_10.png" class="left"></a>
-                    <a href="products?brand=Pinnacle&amp;page=0" title="Pinnacle Products"><img src="img/images/logos_11.png" class="left"></a>
-                    <a href="products?brand=Scotty Cameron&amp;page=0" title="Scotty Cameron Products"><img src="img/images/logos_12.png" class="left"></a>
-                    <a href="products?brand=Srixon&amp;page=0" title="Srixon Products"><img src="img/images/logos_13.png" class="left"></a>
-                    <a href="products?brand=TaylorMade&amp;page=0" title="TaylorMade Products"><img src="img/images/logos_14.png" class="left"></a>
-                    <a href="products?brand=Titleist&amp;page=0" title="Titleist Products"><img src="img/images/logos_15.png" class="left"></a>
-                    <a href="products?brand=US Kids&amp;page=0" title="US Kids Products"><img src="img/images/logos_16.png" class="left"></a>
+                    <a href="products?brand=Adidas&amp;page=0" title="Adidas Products"><img src="img/images/logos_01.png" class="left" width="136" height="80"></a>
+                    <a href="products?brand=Bushnell&amp;page=0" title="Bushnell Products"><img src="img/images/logos_02.png" class="left" width="118" height="80"></a>
+                    <a href="products?brand=Callaway&amp;page=0" title="Callaway Products"><img src="img/images/logos_03.png" class="left" width="113" height="80"></a>
+                    <a href="products?brand=Cleveland&amp;page=0" title="Cleveland Products"><img src="img/images/logos_04.png" class="left" width="118" height="80"></a>
+                    <a href="products?brand=Cobra&amp;page=0" title="Cobra Products"><img src="img/images/logos_05.png" class="left" width="109" height="80"></a>
+                    <a href="products?brand=FootJoy&amp;page=0" title="FootJoy Products"><img src="img/images/logos_06.png" class="left" width="142" height="80"></a>
+                    <a href="products?brand=Golf Pride&amp;page=0" title="Golf Pride Products"><img src="img/images/logos_07.png" class="left" width="119" height="80"></a>
+                    <a href="products?brand=Inesis&amp;page=0" title="Inesis Products"><img src="img/images/logos_08.png" class="left" width="85" height="80"></a>
+                    <a href="products?brand=Odyssey&amp;page=0" title="Odyssey Products"><img src="img/images/logos_09.png" class="left" width="133" height="80"></a>
+                    <a href="products?brand=Ping&amp;page=0" title="Ping Products"><img src="img/images/logos_10.png" class="left" width="102" height="80"></a>
+                    <a href="products?brand=Pinnacle&amp;page=0" title="Pinnacle Products"><img src="img/images/logos_11.png" class="left" width="118" height="80"></a>
+                    <a href="products?brand=Scotty Cameron&amp;page=0" title="Scotty Cameron Products"><img src="img/images/logos_12.png" class="left" width="93" height="80"></a>
+                    <a href="products?brand=Srixon&amp;page=0" title="Srixon Products"><img src="img/images/logos_13.png" class="left" width="114" height="80"></a>
+                    <a href="products?brand=TaylorMade&amp;page=0" title="TaylorMade Products"><img src="img/images/logos_14.png" class="left" width="134" height="80"></a>
+                    <a href="products?brand=Titleist&amp;page=0" title="Titleist Products"><img src="img/images/logos_15.png" class="left" width="138" height="80"></a>
+                    <a href="products?brand=US Kids&amp;page=0" title="US Kids Products"><img src="img/images/logos_16.png" class="left" width="108" height="80"></a>
                     <div class="clearfix"></div>
                </div>
-               <div class="ad_horizontal left"><a href="products?type=Full Sets&amp;brand=TaylorMade&amp;page=0" title="TaylorMade Full Set"><img src="offers/1.jpg" usemap="#offer"></a>
+               <div class="ad_horizontal left"><a href="products?type=Full Sets&amp;brand=TaylorMade&amp;page=0" title="TaylorMade Full Set"><img width="720" height="300" src="offers/1.jpg" usemap="#offer"></a>
                    <!-- <map name="offer">
                       <area shape="rect" coords="50,12,310,146" href="product?id=172" alt="Steel">
                       <area shape="rect" coords="51,156,311,290" href="product?id=173" alt="Steel">
@@ -32,7 +32,7 @@
                          <input type="submit" value="Subscribe" >
                     </form>
                     <hr>
-                    <img src="img/genuine.png">
+                    <img src="img/genuine.png" width="106" height="97">
                     <p>We promise 100% genuine equipment &amp; complete customer satisfaction.</p>
                </div>
                <div class="clearfix"></div>

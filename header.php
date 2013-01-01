@@ -62,18 +62,18 @@ include_once ('functions.php');
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/960.css.gz">
-  <link rel="stylesheet" href="droid/droid.css.gz">
-  <link rel="stylesheet" href="ruppee/ruppee.css.gz">
-  <link rel="stylesheet" href="css/nivo.css.gz">
-  <link rel="stylesheet" href="css/style.css.gz">
+  <link rel="stylesheet" href="css/960.css">
+  <link rel="stylesheet" href="droid/droid.css">
+  <link rel="stylesheet" href="ruppee/ruppee.css">
+  <link rel="stylesheet" href="css/nivo.css">
+  <link rel="stylesheet" href="css/style.css">
 <?php
      $LastPosition=strripos($_SERVER['PHP_SELF'], '/');
      $LastPart=substr($_SERVER['PHP_SELF'], $LastPosition+1);
      $DotPosition=strripos($LastPart, '.');
      $CompareLink=substr($LastPart, 0, $DotPosition);
-     if ($CompareLink=='product'||'minitour') {
-          echo "<link rel=\"stylesheet\" href=\"css/jquery.jqzoom.css.gz\">";
+     if ($CompareLink=='product' || $CompareLink=='minitour' || $CompareLink=='tour' || $CompareLink=='staff' || $CompareLink=='duffel' || $CompareLink=='shoe') {
+          echo "<link rel=\"stylesheet\" href=\"css/jquery.jqzoom.css\">";
      }
   ?>
   <link rel="icon" type="image/png" href="fav.png">
@@ -513,16 +513,18 @@ $offer="products?SubType=Offer&page=0";
 
 $sliders="
 <div class=\"slider\">
-   <div class=\"slider-wrapper theme-default\">
-       <div id=\"slider\" class=\"nivoSlider\">
-          <a href=\"index\"><img src=\"slider/1.jpg\" data-thumb=\"slider/1.jpg\" alt=\"\"/></a>
-          <a href=\"product?id=174\"><img src=\"offers/2.jpg\" data-thumb=\"offers/2.jpg\" alt=\"\"/></a>
-          <a href=\"contactus\"><img src=\"slider/2.jpg\" data-thumb=\"slider/2.jpg\" alt=\"\"/> </a>  
-           <a href=\"product?id=35\"><img src=\"offers/4.jpg\" data-thumb=\"offers/4.jpg\" alt=\"\" /></a>
-          <a href=\"customise\"> <img src=\"slider/3.jpg\" data-thumb=\"slider/3.jpg\" alt=\"\"/></a>
-           <a href=\"product?id=235\"><img src=\"offers/5.jpg\" data-thumb=\"offers/5.jpg\" alt=\"\"/></a>
-       </div>
-   </div>
+     <div class=\"slider-wrapper theme-default\">
+          <div id=\"slider\" class=\"nivoSlider\">
+               <a href=\"index\"><img src=\"slider/welcome.jpg\" data-thumb=\"slider/welcome.jpg\" alt=\"\"/></a>
+               <a href=\"products?brand=Callaway&page=0\"><img src=\"slider/callawaycolours.jpg\" data-thumb=\"slider/callawaycolours.jpg\" alt=\"\"/></a>
+               <a href=\"product?id=174\"><img src=\"offers/razrfit.jpg\" data-thumb=\"offers/razrfit.jpg\" alt=\"\"/></a>
+               <a href=\"products?type=Irons&brand=TaylorMade&page=0\"><img src=\"slider/taylormadeirons.jpg\" data-thumb=\"slider/taylormadeirons.jpg\" alt=\"\"/></a>
+               <a href=\"contactus\"><img src=\"slider/looking.jpg\" data-thumb=\"slider/looking.jpg\" alt=\"\"/> </a>  
+               <a href=\"product?id=35\"><img src=\"offers/r11rbz.jpg\" data-thumb=\"offers/r11rbz.jpg\" alt=\"\" /></a>
+               <a href=\"customise\"> <img src=\"slider/customise.jpg\" data-thumb=\"slider/customise.jpg\" alt=\"\"/></a>
+               <a href=\"product?id=235\"><img src=\"offers/6pack.jpg\" data-thumb=\"offers/6pack.jpg\" alt=\"\"/></a>
+          </div>
+     </div>
 </div>
 ";
 

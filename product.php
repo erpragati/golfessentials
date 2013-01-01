@@ -41,7 +41,7 @@ if (isset($_SESSION['lastpage'])) {
 /*--------------------------------------------------------------------------------------------------------------------------------------- 
                                             Get the constant values
 ----------------------------------------------------------------------------------------------------------------------------------------*/
-$constantsql="SELECT ProductID, ProductName, Brand, MRP, SP, ImageFolderLInk, ProductDescription, Rating, TimesRated, Quantity, Type ,Video
+$constantsql="SELECT ProductID, ProductName, Brand, MRP, SP, ImageFolderLInk, ProductDescription, Rating, TimesRated, Quantity, Type ,Video, Bags
 FROM productmaster 
 WHERE Enabled='1' AND ProductID='".$id."'";
 $constantquery=mysql_query($constantsql);
@@ -59,7 +59,7 @@ echo "</div>";
 ----------------------------------------------------------------------------------------------------------------------------------------*/
 $th = array(
      'Loft' => NULL,
-     'Hand' => NULL,
+     'Player Hand' => NULL,
      'Flex' => NULL,
      'Shaft' => NULL,
      'Player' => NULL,
@@ -67,15 +67,17 @@ $th = array(
      'Bounce' => NULL,
      'Size' => NULL,
      'Colour' => NULL,
-     'Glove'  => NULL,
+     'Glove Hand'  => NULL,
      'Offset' => NULL,
      'Length' => NULL,
+     //'Bags' => NULL,
      
      );
 $absent=0;
 foreach ($th as $key => &$value) {
-     $thsql="SELECT DISTINCT ".stripslashes($key)." FROM productmaster JOIN subproduct WHERE productmaster.ProductID = subproduct.ProductID 
+     $thsql="SELECT DISTINCT `".stripslashes($key)."` FROM productmaster JOIN subproduct WHERE productmaster.ProductID = subproduct.ProductID 
      AND Enabled='1' AND productmaster.ProductID='".$id."'";
+#     echo $thsql."<br>";
      $thquery=mysql_query($thsql);
      if ($thresult=mysql_fetch_row($thquery)) {
           if ($thresult[0]==NULL) {
@@ -95,12 +97,13 @@ unset($value);
 $sql1="SELECT ProductID, SubProductID, ";
 foreach ($th as $key => $value) {
      if ($value==1) {
-          $sql1=$sql1.$key.", ";
+          $sql1=$sql1."`".$key."`, ";
      }
 }
 $sql1=substr($sql1, 0, -2);
 $sql2=" FROM subproduct WHERE ProductID='".$id."'";
 $sql=$sql1.$sql2;
+#echo $sql;
 $query=mysql_query($sql);
 echo "<div id=\"productpage\"><h2>".$constant[2]." ".$constant[1]."</h2><hr>";
 /*--------------------------------------
@@ -306,10 +309,10 @@ echo "</div><div class=\"clearfix\"></div>";
 <?php include 'footer.php'; ?>
 
 <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js.gz"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 -->
-<script type="text/javascript" src="js/libs/jquery-1.8.2.min.js.gz"></script>
+<script type="text/javascript" src="js/libs/jquery-1.8.2.min.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -323,7 +326,7 @@ echo "</div><div class=\"clearfix\"></div>";
   })();
 
 </script>
-<script type='text/javascript' src='js/jquery.jqzoom-core.js.gz'></script>
+<script type='text/javascript' src='js/jquery.jqzoom-core.js'></script>
 
 <script type="text/javascript">
 $(document).ready(function() {

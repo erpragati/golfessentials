@@ -50,6 +50,7 @@ include_once '../functions.php';
 		}
 	</style>
 </head>
+<body>
 <?php
 $SQL="SELECT * FROM `customise` WHERE 1";
 $query=mysql_query($SQL);
@@ -82,7 +83,7 @@ if ($num > 0) {
 	#----------------------------------
 	echo "<tr><td>Time</td>";
 		for ($i=1; $i <= $num ; $i++) { 
-			echo "<td align=\"center\">" . date('j M, Y :: h:i A', strtotime(${'row'.$i}[3])) . "</td>";
+			echo "<td align=\"center\">" . date('j M, Y # h:i A', strtotime(${'row'.$i}[3])) . "</td>";
 		}
 	echo "</tr>";
 	#----------------------------------
@@ -174,7 +175,7 @@ if ($num > 0) {
 		}
 	echo "</tr>";
 	#----------------------------------
-	echo "<tr><td>Logo 4<br><small>File</small><br><small>Position</small></td>";
+	echo "<tr><td>Logo 5<br><small>File</small><br><small>Position</small></td>";
 		for ($i=1; $i <= $num ; $i++) {
 			if (${'row'.$i}[32] != 0) {
 				echo "<td align=\"center\"><br><small>" . ${'row'.$i}[34] . "</small><br><small>" . ${'row'.$i}[33] . "</small></td>";
@@ -184,7 +185,7 @@ if ($num > 0) {
 		}
 	echo "</tr>";
 	#----------------------------------
-	echo "<tr><td>Logo 5<br><small>File</small><br><small>Position</small></td>";
+	echo "<tr><td>Logo 6<br><small>File</small><br><small>Position</small></td>";
 		for ($i=1; $i <= $num ; $i++) {
 			if (${'row'.$i}[35] != 0) {
 				echo "<td align=\"center\"><br><small>" . ${'row'.$i}[37] . "</small><br><small>" . ${'row'.$i}[36] . "</small></td>";
@@ -194,7 +195,7 @@ if ($num > 0) {
 		}
 	echo "</tr>";
 	#----------------------------------
-	echo "<tr><td>Logo 6<br><small>File</small><br><small>Position</small></td>";
+	echo "<tr><td>Logo 7<br><small>File</small><br><small>Position</small></td>";
 		for ($i=1; $i <= $num ; $i++) {
 			if (${'row'.$i}[38] != 0) {
 				echo "<td align=\"center\"><br><small>" . ${'row'.$i}[40] . "</small><br><small>" . ${'row'.$i}[39] . "</small></td>";
@@ -204,20 +205,10 @@ if ($num > 0) {
 		}
 	echo "</tr>";
 	#----------------------------------
-	echo "<tr><td>Logo 7<br><small>File</small><br><small>Position</small></td>";
+	echo "<tr><td>Logo 8<br><small>File</small><br><small>Position</small></td>";
 		for ($i=1; $i <= $num ; $i++) {
 			if (${'row'.$i}[41] != 0) {
 				echo "<td align=\"center\"><br><small>" . ${'row'.$i}[43] . "</small><br><small>" . ${'row'.$i}[42] . "</small></td>";
-			} else{
-				echo "<td align=\"center\">n/a</td>";
-			}
-		}
-	echo "</tr>";
-	#----------------------------------
-	echo "<tr><td>Logo 8<br><small>File</small><br><small>Position</small></td>";
-		for ($i=1; $i <= $num ; $i++) {
-			if (${'row'.$i}[44] != 0) {
-				echo "<td align=\"center\"><br><small>" . ${'row'.$i}[46] . "</small><br><small>" . ${'row'.$i}[45] . "</small></td>";
 			} else{
 				echo "<td align=\"center\">n/a</td>";
 			}
@@ -244,7 +235,7 @@ if ($num > 0) {
 	#----------------------------------
 	echo "<tr><td></td>";
 		for ($i=1; $i <= $num ; $i++) { 
-			echo "<td align=\"center\"><a href=\"jstewart.php?id=" . ${'row'.$i}[0] . "\"> Place Order</a></td>";
+			echo "<td align=\"center\"><a href=\"customise_mail.php?id=" . ${'row'.$i}[0] . "\"> Place Order</a></td>";
 		}
 	echo "</tr>";
 	#----------------------------------
@@ -252,3 +243,6 @@ if ($num > 0) {
 } else {
 	echo "There are no customise orders!";
 }
+?>
+</body>
+</html>
