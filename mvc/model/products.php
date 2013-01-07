@@ -51,7 +51,7 @@ class products
 		foreach ($this->querystring as $key => $value) {
 			if (!in_array($key, $this->disabled, true)) {
 				$query_result	=	$this->db->Select($this->conn,true,array($key),"productmaster","subproduct",array("productmaster.ProductID = subproduct.ProductID","productmaster.Enabled = 1",$key . " IS NOT NULL"),$key,false);
-				return $this->process($query_result);
+				return $this->process($query_result,$key);
 #				return $result->fetchAll();
 			}
 		}
@@ -59,7 +59,7 @@ class products
 		#return json_encode($this->filter);
 	}
 
-	public function process($result)
+	public function process($result,$key)
 	{
 		while ($this->row 	=	$result->fetch()) {
 			$this->filter[$key][]	=	$this->row[0];

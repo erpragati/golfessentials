@@ -3,7 +3,7 @@
 
 /**
 * @author 		Narayan waraich
-* @copyright	Nama Solutions
+* @copyright		Nama Solutions
 * @category		Core database Connection
 * @return 		PDO database connection handler	
 */
@@ -16,9 +16,7 @@ class DBConnect
 	{
 		try {
 			$this->conn = new PDO('mysql:host=localhost;dbname=golfesse_db',$this->USERNAME,$this->PASSWORD);
-
 			$this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
 			return $this->conn;
 		} catch(Exception $e) {
 			return $e->getMessage();
