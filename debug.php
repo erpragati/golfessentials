@@ -71,7 +71,7 @@ while ($email=mysql_fetch_array($Get)) {
 *	2.	The Code lists all files in that directory.
 *	3.	Then 'preg_match_all' is run on files to get all emails starting with 'To: xyz@abc.com'.
 *	4.	All email id's other than 'info@golfessentials.in' are then saved to the table 'mailer' in the db.
-
+*
 	$directory="mails/";
 	$dirhandler = opendir($directory);
 	$nofiles=0;
@@ -82,18 +82,35 @@ while ($email=mysql_fetch_array($Get)) {
 	//		$files[$nofiles]=$file;
 			$mail = file_get_contents('mails/'.$file);
 			$matches = array();
-			preg_match_all('/To([ a-z0-9:._@?-]+)/', $mail, $matches);
+			#	To: xyz@abc.com	/To([ a-z0-9:._@?-]+)/
+			preg_match_all('/([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/', $mail, $matches);
 			foreach ($matches[0] as $key) {
-				$id = substr($key, 4);
-				if ($id !== 'info@golfessentials.in') {
-					$email_list[]=$id;
-					$SaveSQL="INSERT INTO `mailer`(`email`, `status`, `unsubscribed`) VALUES ('".$id."', 0, 0)";
+			#	$id = substr($key, 4);
+				if (($key !== 'promotions@golfessentials.in') && (!in_array($key, $email_list))) {
+					$email_list[]=$key;
+					$SaveSQL="INSERT INTO `mailer`(`email`, `status`, `unsubscribed`) VALUES ('".$key."', 0, 0)";
 					mysql_query($SaveSQL);
 				}
 			}
 	    }
 	}
 	closedir($dirhandler);
+*//*
+$query=mysql_query("SELECT email FROM mailertest WHERE 1");
+$hni=array();
+while ($row=mysql_fetch_array($query)) {
+	$hni[]=$row[0];
+}
+
+$query2=mysql_query("SELECT email FROM mailer WHERE 1");
+$i=0;
+while ($row2=mysql_fetch_array($query2)) {
+	$i++;
+	echo $i . "<br>";
+	if (in_array($row[0], $hni)) {
+		echo "<b>" . $i . "</b>&nbsp:&nbsp;" . $row[0];
+	}
+}
 */
 ?>
 <!--

@@ -36,8 +36,7 @@ include 'header.php';
                                    unset($_SESSION['error']);
                               }
                               echo "<script type=\"text/javascript\">window.location = \"".$_GET['type'].".php\"</script>";
-                         }
-                    } else {
+                         } else {
                          echo "<script type=\"text/javascript\">window.location = \"index.php\"</script>";
                     }
                     

@@ -21,11 +21,12 @@
 						<td width="560" align="left" valign="middle" style="background-color:#fff;">
 							<p>Hi <?php echo GetCustomerDetails('fname')." ".GetCustomerDetails('lname') ?>,</p>
 							<p>Thank you for your order.</p>
-							<p>Please find below the summary of your order at golfessentials.in.</p>
+							<p>Please find below the summary of your Special Order at golfessentials.in.</p>
 							<p>Product Name - <?php echo $productname ?></p>
 							<p>Brand - <?php echo $brand ?></p>
 							<p>Category - <?php echo $category ?></p>
 							<p><?php echo $details ?></p>
+							<br><br>
 							<p>At golfessentials.in, we work hard for your convenience. Please bear with us while we check on the possibility of meeting your requirement.</p>
 							<p>We will get back to you within 2-3 working days.</p>
 							<p>Thank you for your continuous support and understanding!</p>

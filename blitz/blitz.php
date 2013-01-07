@@ -22,6 +22,7 @@ $get_products_sql=mysql_query($get_products);
 			<th>MRP</th>
 			<th>Whole Sale Price</th>
 			<th>Our Price</th>
+			<th>EDIT</th>
 			<th>Status</th>
 			<th>Featured</th>
 			<th>Latest</th>
@@ -32,17 +33,16 @@ $get_products_sql=mysql_query($get_products);
 		</tr>
 		<?php
 			while ($product_array=mysql_fetch_array($get_products_sql)) {
-				
-			
 		?>
 		<tr>
 			<td><?php echo $product_array[0]; ?></td>
-			<td><?php echo $product_array[1]; ?></td>
+			<td><?php echo "<a href=\"../product?id=".$product_array[0]."\" target=\"_blank\">".$product_array[1]."</a>"; ?></td>
 			<td><?php echo $product_array[2]; ?></td>
 			<td><?php echo $product_array[3]; ?></td>
 			<td><?php echo $product_array[4]; ?></td>
 			<td><?php echo $product_array[5]; ?></td>
 			<td><?php echo $product_array[6]; ?></td>
+			<td><?php echo "<a href=\"blitz_edit.php?id=".$product_array[0]."\">Edit</a>"; ?></td>
 			<td><?php if ($product_array[7]==1) {echo "Showing";} elseif($product_array[7]==0) {echo "Not-Showing";}  ?></td>
 			<td><?php if ($product_array[8]==1) {echo "Featured";} elseif($product_array[8]==0) {echo "No";}  ?></td>
 			<td><?php if ($product_array[9]==1) {echo "Latest";} elseif($product_array[9]==0) {echo "No";}  ?></td>

@@ -113,7 +113,7 @@ if (isset($_GET['ce'])) {
 		$mail->AddReplyTo($email);
 		$mail->WordWrap = 50;                            		   // set word wrap to 50 characters
 		$mail->IsHTML(true);                              		  // set email format to HTML
-		$mail->Subject = "We have received your order ";
+		$mail->Subject = "We have received your Special Order ";
 		ob_start();
 		include 'mail/special.php';
 		$content = ob_get_clean();
@@ -144,13 +144,13 @@ if (isset($_GET['ce'])) {
 		$mail->AddReplyTo("sales@golfessentials.in");
 		$mail->WordWrap = 50;                            		   // set word wrap to 50 characters
 		$mail->IsHTML(true);                              		  // set email format to HTML
-		$mail->Subject = "We have received your order ";
+		$mail->Subject = "We have received your Special Order ";
 		ob_start();
 		include 'mail/special.php';
 		$content = ob_get_clean();
 		$mail->Body    = $content;
 		$mail->AltBody = $content;
-		$mail->Send()
+		$mail->Send();
 	} catch (phpmailerException $e) {
 		$_SESSION['mailererror'] = $e->errorMessage();
 	} catch (Exception $e) {
